@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "galacticraft:moon_ravine_village/start_pool",
+  "size": 20,
+  "max_distance_from_center": 128,
+  "biomes": "#galacticraft:has_structure/moon_ravine_village",
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 50
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "liquid_settings": "ignore_waterlogging",
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:skeleton",
+          "maxCount": 5,
+          "minCount": 3,
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

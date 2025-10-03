@@ -6,7 +6,7 @@
   "biomes": "#galacticraft:has_structure/moon_ravine_village",
   "step": "surface_structures",
   "start_height": {
-    "absolute": 50
+    "absolute": -5
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "liquid_settings": "ignore_waterlogging",
